@@ -1,0 +1,101 @@
+/* css to format the homepage */
+
+#title {
+  font-style: italic;
+  color: white;
+  opacity: 1;
+}
+/* body { 
+  background-color: #9CD0CA;
+} */
+#home{
+/*   background-image: url("https://cdn.glitch.com/17c859ea-8e0c-4609-8a2e-025502d4c2cb%2FFXSGAOn.gif?v=1561612557724");
+  background-repeat: no-repeat;
+  background-position: center;
+ background-size: cover; */
+  height: 5vh;
+  opacity: 1;
+  background-color: ##668A6B;
+  color: white;
+}
+
+#lk {
+  background-image: url("https://media.giphy.com/media/26vIfmfSwsxxz9dEk/giphy.gif");
+  background-repeat: no-repeat;
+  background-position: center;
+ background-size: cover;
+  height: 25vh;
+}
+
+.mobile-container {
+  max-width: 480px;
+  margin: auto;
+  background-color: #333;
+  height: 500px;
+  color: white;
+  border-radius: 10px;
+}
+
+.topnav {
+  overflow: hidden;
+  position: relative;
+}
+
+.topnav #myLinks {
+  display: none;
+}
+
+.topnav a {
+  color: white;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  display: block;
+}
+
+.topnav a.icon {
+  display: block;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+.topnav a:hover {
+  color: white;
+}
+
+.active {
+  color: white;
+}
+
+/* css to format all pages */
+
+body {
+  font-family: "Benton Sans", "Helvetica Neue", helvetica, arial, sans-serif;
+  margin: 2em;
+  background-color: #D3EBD8;
+}
+
+#describe{
+  margin-left: 300px;
+  margin-right: 300px;
+}
+h1 {
+  color:#668A6B;
+}
+p {
+  color: black;
+}
+#shoppic {
+  width: 30%;
+  height: 30%;
+}
+h2 {
+  color:#668A6B;
+  margin-left:165px;
+}
+button{
+  background-color: #D3EBD8;
+  height:50px;
+  width:100px;
+  text-size: 50px;

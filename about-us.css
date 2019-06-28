@@ -1,0 +1,160 @@
+/* css to format "about us" page */
+#liz-pic, #kyrie-pic, #neena-pic{
+  height:350px;
+  width:300px;
+/*   border:gray solid 5px; */
+  border-radius:50%;
+  display: inline;
+  justify-content: space-around;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+section{
+  display: inline-flex;
+  justify-content: space-around;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+#kyrie{
+  padding-left: 90px;
+  padding-right: 90px;
+  justify-content: space-around;
+}
+
+#liz, #neena{
+  padding-left: 100px;
+  padding-right: 100px;
+  justify-content: space-around;
+}
+
+/* #gif2{
+  height:400px;
+  width:1500px;
+  justify-content: center;
+  margin-left: -20px;
+} */
+
+/* #about-us-page{
+  background-color: lightgray;
+} */
+
+h3{
+  text-size: 300px;
+}
+/* #lololtest {
+  background-image: url ("https://cdn.glitch.com/17c859ea-8e0c-4609-8a2e-025502d4c2cb%2Ftumblr_oau6zftR5n1rj05e4o1_500.gif?v=1561612487407")
+} */
+/* css to format the homepage */
+
+#title {
+  font-style: italic;
+  color: #526E56;
+  opacity: 1;
+}
+/* body { 
+  background-color: #9CD0CA;
+} */
+#home {
+/*   background-image: url("https://cdn.glitch.com/17c859ea-8e0c-4609-8a2e-025502d4c2cb%2Fdd45fde36c826722bc3c4b242bd6b8bc.gif?v=1561612564523");
+  background-repeat: no-repeat;
+  background-position: center;
+ background-size: cover; */
+  height: 2vh;
+  opacity: 1;
+  background-color: white;
+  color: white;
+}
+/* #lk {
+  background-image: url("https://cdn.glitch.com/17c859ea-8e0c-4609-8a2e-025502d4c2cb%2FGg2LbDh.gif?v=1561648364786");
+  background-repeat: no-repeat;
+  background-position: center;
+ background-size: cover;
+  height: 25vh; */
+}
+.mobile-container {
+  max-width: 480px;
+  margin: auto;
+  background-color: white;
+  height: 500px;
+  color: white;
+  border-radius: 10px;
+}
+
+.topnav {
+  overflow: hidden;
+  position: relative;
+}
+
+.topnav #myLinks {
+  display: none;
+}
+
+.topnav a {
+  color: white;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  display: block;
+}
+
+.topnav a.icon {
+  display: block;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+.topnav a:hover {
+  color: #526E56;
+}
+
+.active {
+  color: #526E56;
+}
+
+/* css to format all pages */
+
+body {
+  font-family: "Benton Sans", "Helvetica Neue", helvetica, arial, sans-serif;
+  margin: 2em;
+  background-color:#D3EBD8;
+  color: #526E56;
+}
+
+#describe{
+  margin-left: 300px;
+  margin-right: 300px;
+}
+/* #gif2 {
+  margin-left: 20px;
+  margin-right: 20px;
+} */
+
+#title1 {
+  padding: 80px;
+  color: white;
+  background-image: url("https://cdn.glitch.com/17c859ea-8e0c-4609-8a2e-025502d4c2cb%2Fsource.gif?v=1561648367046");
+  height: 10vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  margin-top: -17px;
+  margin-bottom: 10px;
+}
+
+/* .about-bckgd-image{
+background-image: url("https://cdn.glitch.com/17c859ea-8e0c-4609-8a2e-025502d4c2cb%2Fgiphy%20(9).gif?v=1561612538444");
+  height: 30vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+} */
+
+/* @media screen and (max-width: 300px) {html{
+  font-size: 20px;
+  height:20px;
+  width:20px;
+  }
+} */
