@@ -1,0 +1,87 @@
+/* css to format the homepage */
+
+#title {
+  font-style: italic;
+  color: white;
+  opacity: 1;
+}
+/* body { 
+  background-color: #9CD0CA;
+} */
+#home {
+  background-image: url("https://media.giphy.com/media/l4hLyOGRJWNSR8QQ8/giphy.gif");
+  background-repeat: no-repeat;
+  background-position: center;
+ background-size: cover;
+  height: 70vh;
+  opacity: 1;
+  background-color: ##668A6B;
+  color: white;
+}
+.mobile-container {
+  max-width: 480px;
+  margin: auto;
+  background-color: #333;
+  height: 500px;
+  color: white;
+  border-radius: 10px;
+}
+
+.topnav {
+  overflow: hidden;
+  position: relative;
+}
+
+.topnav #myLinks {
+  display: none;
+}
+
+.topnav a {
+  color: white;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  display: block;
+}
+
+.topnav a.icon {
+  display: block;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+.topnav a:hover {
+  color: white;
+}
+
+.active {
+  color: white;
+}
+
+/* css to format all pages */
+
+body {
+  font-family: "Benton Sans", "Helvetica Neue", helvetica, arial, sans-serif;
+  margin: 2em;
+}
+
+#describe{
+  margin-left: 300px;
+  margin-right: 300px;
+}
+
+.pics{
+  border-radius: 50%;
+  height:250px;
+  width:250px;
+  padding-right: 100px;
+  padding-left: 100px;
+}
+
+.describe{
+  padding-right: 280px;
+  padding-left: 170px;
+  display: inline;
+  text-size: 100px;
+}
